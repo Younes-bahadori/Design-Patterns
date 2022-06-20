@@ -29,12 +29,6 @@ var car = toyFactory.createToy({
     name: "honda"
 })
 
-var car = toyFactory.createToy({
-    toyType: "car",
-    color: "blue",
-    price: 12,
-    name: "honda"
-})
 
 console.log(car)
 console.log(car instanceof ToyCar)
